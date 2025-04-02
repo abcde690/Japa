@@ -4,9 +4,10 @@ color:black;
 justify-content: center;
 height: 50px;
 margin: 0;
+background-color: rgb(133, 130, 130);
 }
 
-h1{
+h1 {
 display: flex;
 color:rgb(248, 0, 0);
 justify-content: center;
@@ -15,7 +16,7 @@ height: 100px;
 margin: 0;
 flex-direction: column;
 }
-button {
+button  {
     
         color: white;            /* Cor do texto do botão */
         background-color: transparent; /* Fundo transparente no botão */
@@ -40,9 +41,6 @@ margin: 0px;
     margin-left: auto;   /* Margem à esquerda automática */
     margin-right: auto;  /* Margem à direita automática */
     display: block;      /* Tornar o elemento um bloco */
-
-
-
 }
 
 header{
@@ -52,23 +50,16 @@ background-color: rgba(0, 0, 0, 0.89);
 margin: 100px;
 justify-items: center;
 align-items: left;
-
-
-
 }
-body{
-    background-color: rgb(133, 130, 130);
 
-}
-header{
-color:rgb(255, 0, 0);
-justify-content: center;
-align-items: center;
-height: 100px;
- margin: 00px;
-}
+header{ color:rgb(255, 0, 0); 
+    justify-content: center; 
+    align-items: center; 
+    height: 100px; 
+    margin: 00px;
+ }
 select {
-    display: flex;
+    display: block;
     flex-direction: column;
     align-items: center;
     margin: 20px 0;
@@ -80,3 +71,6 @@ align-items: center;      /* Centraliza os botões verticalmente */
  gap: 10px;                /* Adiciona um pequeno espaço entre os botões */
 margin-top: 20px;         /* Adiciona um espaço acima dos botões */
 }
+image [
+  
+]
