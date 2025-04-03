@@ -25,6 +25,9 @@ button  {
         font-size: 16px;         /* Tamanho da fonte */
         justify-content: flex-end;
 }
+.delivery-info {
+    text-align: center;  /* Centraliza todo o conteúdo dentro de .delivery-info */
+}
  h2{
     text-align: center;
     display: flex;
@@ -71,6 +74,33 @@ align-items: center;      /* Centraliza os botões verticalmente */
  gap: 10px;                /* Adiciona um pequeno espaço entre os botões */
 margin-top: 20px;         /* Adiciona um espaço acima dos botões */
 }
-image [
-  
-]
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .phone { display: none; }
+    .tablet { display: block; }
+    .pc { display: none; }
+    .print { display: none; }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .phone { display: none; }
+    .tablet { display: none; }
+    .pc { display: block; }
+    .print { display: none; }
+    .tv { display: none; }
+}
+
+@media screen and (min-width: 1200px) {
+    .phone { display: none; }
+    .tablet { display: none; }
+    .pc { display: none; }
+    .tv { display: none; }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
